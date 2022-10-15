@@ -1,0 +1,199 @@
+* {
+  margin: 0px;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url('https://i0.wp.com/gamehall.com.br/wp-content/uploads/2018/02/chrono-trigger-002.jpg?fit=740%2C416&ssl=1');
+  background-size:100%;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  /* background-size: cover; */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1 {
+  color: white;
+  text-shadow: 5px 5px 5px black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#newcard-container {  
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-right: 40px;
+  flex-grow: 1;
+  justify-content: space-around;
+}
+
+#form-container {
+  max-width: 60%;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+  flex-grow: 1;
+  padding: 1%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+form label {
+  width: 60%;
+  margin: 5px 0px;
+}
+
+.button-disabled-false {
+  width: 60%;
+  color: white;
+  background-color: brown;
+}
+
+.button-disabled-false:hover {
+  width: 60%;
+  color: white;
+  background-color: rgb(211, 21, 21);
+}
+
+.button-disabled-true {
+  width: 60%;
+  color: white;
+  background-color: brown;
+  opacity: 50%;
+}
+
+.form-input {
+  width: 100%;
+}
+
+#newcard-container #preview-container {
+  max-width: 30%;
+  max-height: 90%;
+  margin: 10px 0px;
+  flex-grow: 1;
+}
+
+/* .baralho-container {
+  background-image: url('https://images6.alphacoders.com/520/520448.jpg');
+  background-size: contain;
+} */
+
+.filter-container {
+  color: white;
+  background-color: brown;
+  padding: 3px;
+}
+
+.filter-controls {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+  background-color: brown;
+}
+
+#filter-title {
+  margin-top: 10px;
+  align-self: flex-start;
+}
+
+#filterName {
+  flex-basis: 20%;
+  min-height: 25%;
+  max-height: 50%;
+}
+
+#searching-for {
+  min-width: 30%;
+}
+
+.listaGames {
+  display:flex;
+  flex-wrap: wrap;
+  /* background-color: aquamarine; */
+  justify-content: space-around;  
+  margin-top: 50px;
+  margin-right: 20px;
+}
+
+.cardview-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 30%;
+  max-height: min-content;
+  margin: 5px;
+}
+
+.card-view {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border: 2px solid black;
+  border-radius: 5px;
+  justify-content:space-between;
+  text-align: justify;
+  margin: 0px;
+  height: 430px;
+  padding: 10px;
+  box-shadow: 3px 3px 3px gray;
+  background-image: url('https://media.istockphoto.com/photos/grunge-paper-background-picture-id163991732?b=1&k=20&m=163991732&s=170667a&w=0&h=3gJO51_7cVMiFouKEhc-rG9fAkSvKZQIPANszOuFKiM=');
+  background-size: cover;
+  background-position: center;
+}
+
+.card-view img {
+  width: 50%;
+  height: 40%;
+  align-self: center;
+}
+
+.card-name {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 800;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+  background-color: brown;
+}
+
+.card-description {
+  font-size: 10px;
+  background-color: brown;
+  color: white;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+.card-attributes {
+  background-color: brown;
+  color: white;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+.card-classes {
+  display: flex;
+  font-size: 20px;
+  text-shadow: 2px 1px 1px black;
+}
+
+.btn-excluir {
+  max-width: 40%;
+}
